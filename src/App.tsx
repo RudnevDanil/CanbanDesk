@@ -1,6 +1,6 @@
 import React from 'react';
 import {Routes, Route, BrowserRouter} from 'react-router-dom';
-import {Schedule} from "./pages/Schedule/Schedule";
+import {Schedule} from "./pages/Home/Schedule/Schedule";
 import {PageNotFound} from "./pages/PageNotFound/PageNotFound";
 import {Home} from "./pages/Home/Home";
 
