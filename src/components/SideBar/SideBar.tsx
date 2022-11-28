@@ -22,7 +22,6 @@ const SideBarLogo = styled.div`
   top: 26px;
 `
 
-
 export const SideBar = () => {
 
     return (
