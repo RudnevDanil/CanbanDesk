@@ -2,8 +2,7 @@ import styled from "styled-components";
 import {TSectionItem} from "../../Workspace";
 
 const SectionItemBlock = styled.div`
-  height: 16px;
-
+  margin-bottom: 1.125rem;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;

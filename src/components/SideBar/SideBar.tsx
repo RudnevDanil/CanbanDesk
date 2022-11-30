@@ -5,30 +5,25 @@ import {Workspace} from "./Workspace/Workspace";
 const {default: logoPath} = require("../../imgs/bordio-logo.svg");
 
 const SideBarStyle = styled.div`
-  position: absolute;
-  width: 219px;
-  height: 978px;
-  left: 0px;
-  top: 0px;
-
   background: #0F1D40;
+  width: 11%;
+  height: 100%;
 `
 
-const SideBarLogo = styled.div`
-  position: absolute;
-  width: 131px;
-  height: 32px;
-  left: 16px;
-  top: 26px;
+const SideBarLogo = styled.img`
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  
+  max-width: calc(100% - 2rem);
+  max-height: 2rem;
 `
 
 export const SideBar = () => {
 
     return (
         <SideBarStyle>
-            <SideBarLogo>
-                <img src={logoPath} alt="..."/>
-            </SideBarLogo>
+            <SideBarLogo src={logoPath} alt="..."/>
 
             <Search/>
 

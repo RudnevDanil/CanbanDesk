@@ -9,12 +9,8 @@ const {default: notesIconPath} = require("../../imgs/notesIcon.svg");
 const {default: filesIconPath} = require("../../imgs/filesIcon.svg");
 
 const ToolsStyle = styled.div`
-  position: absolute;
-  width: 154px;
-  height: 978px;
-  left: 219px;
-  top: 0px;
-
+  width: 8%;
+  height: 100%;
   background: #F5F8FA;
 `
 const ToolsBlock = styled.div`
